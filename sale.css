@@ -103,6 +103,10 @@ li {
     flex: 0 1 300px;
   }
 
+  .item-list li {
+    max-width: 960px;
+  }
+
   .item-image img {
     max-width: 300px;
   }
