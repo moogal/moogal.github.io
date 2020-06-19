@@ -35,8 +35,28 @@ li {
   margin-bottom: 15px;
 }
 
+.category-list li {
+  display: inline-block;
+  margin: 0 20px 50px 0;
+  text-align: center;
+}
+
+.category-list li a {
+  display: inline-block;
+  font-family: sans-serif;
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.category-list li img {
+  display: block;
+  margin-bottom: 10px;
+}
+
 .item-list li {
   display: flex;
+  max-width: 300px;
 }
 
 .item-ref {
